@@ -6,7 +6,7 @@ import { ArrowLeft, ChevronRight } from "lucide-react";
 const MainFeed = () => {
     return <div className="col-span-6">
         <div className="flex items-center cursor-pointer">
-            <div className="text-sm text-muted-foreground bg-muted px-2 py-1 rounded-full flex items-center mr-4"><ArrowLeft size={14} className="mr-1" />Back</div>
+            <div className="text-sm text-muted-foreground hover:text-secondary-foreground bg-muted px-2 py-1 rounded-full flex items-center mr-4"><ArrowLeft size={14} className="mr-1" />Back</div>
             <div className="text-sm text-muted-foreground">Templates/Sales Effectiveness/BANT</div>
         </div>
         <div className='text-xl font-semibold text-main my-4'>Analyse the calls for Soft Skills Coaching</div>

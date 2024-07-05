@@ -16,10 +16,10 @@ const Menu = () => {
         </CardHeader>
         <Separator />
         <CardContent className="p-2 pt-4 text-second">
-            <div className="p-4 flex justify-start items-center hover:text-muted-foreground cursor-pointer"> <House size={20} className='mr-2' /> Homes</div>
-            <div className="p-4 flex justify-start items-center hover:text-muted-foreground cursor-pointer"> <LayoutDashboard size={20} className='mr-2' />Templates</div>
-            <div className="p-4 flex justify-start items-center hover:text-muted-foreground cursor-pointer"><Files size={20} className='mr-2' /> Reports</div>
-            <div className="p-4 flex justify-start items-center hover:text-muted-foreground cursor-pointer"> <PieChart size={20} className="mr-2" /> Sales Performance</div>
+            <div className="p-4 text-[15px] flex justify-start items-center hover:text-muted-foreground cursor-pointer"> <House size={20} className='mr-2' /> Homes</div>
+            <div className="p-4 text-[15px] flex justify-start items-center hover:text-muted-foreground cursor-pointer"> <LayoutDashboard size={20} className='mr-2' />Templates</div>
+            <div className="p-4 text-[15px] flex justify-start items-center hover:text-muted-foreground cursor-pointer"><Files size={20} className='mr-2' /> Reports</div>
+            <div className="p-4 text-[15px] flex justify-start items-center hover:text-muted-foreground cursor-pointer"> <PieChart size={20} className="mr-2" /> Sales Performance</div>
         </CardContent>
         <CardFooter className="justify-self-end">
             <AvatarSet type='details' user={{ name: 'Adela Parkson', position: 'Manager' }} />
